@@ -20,7 +20,7 @@
     <keystore.name>wso2carbon.jks</keystore.name>
     <dockerfile.tag>${project.version}</dockerfile.tag>
     <dockerfile.base.image>wso2/wso2mi:4.0.0</dockerfile.base.image>
-    <dockerfile.repository>docker_username/repository</dockerfile.repository>
+    <dockerfile.repository>dushansachinda/mi-4.0.0.1</dockerfile.repository>
   </properties>
   <dependencies>
     <dependency>
