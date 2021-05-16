@@ -58,9 +58,6 @@
     <profile>
       <id>Docker</id>
       <build />
-      <modules>
-        <module>HelloWorldK8sDockerExpoirter</module>
-      </modules>
     </profile>
     <profile>
       <id>Kubernetes</id>
@@ -75,7 +72,6 @@
       </activation>
       <build />
       <modules>
-        <module>HelloWorldK8sDockerExpoirter</module>
         <module>HelloK8sKubernetesExporter</module>
       </modules>
     </profile>

@@ -14,6 +14,9 @@ COPY Resources/client-truststore.jks ${WSO2_SERVER_HOME}/repository/resources/se
 
 
 
+
+
+
 #[DO NOT REMOVE] Auto generated Docker commands for config-map parser
 COPY  --chown=wso2carbon:wso2 CarbonHome/conf/datasources/master-datasources.xml ${WSO2_SERVER_HOME}/conf/datasources/master-datasources.xml
 COPY  --chown=wso2carbon:wso2 CarbonHome/conf/user-mgt.xml ${WSO2_SERVER_HOME}/conf/user-mgt.xml

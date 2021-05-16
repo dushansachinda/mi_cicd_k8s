@@ -22,14 +22,6 @@
     <dockerfile.base.image>wso2/wso2mi:4.0.0</dockerfile.base.image>
     <dockerfile.repository>dushansachinda/mi-4.0.0.1</dockerfile.repository>
   </properties>
-  <dependencies>
-    <dependency>
-      <groupId>wso2.sampleHelloWorldKubernetes</groupId>
-      <artifactId>HelloK8sCompositeExporter</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
-      <type>car</type>
-    </dependency>
-  </dependencies>
   <repositories>
     <repository>
       <releases>
